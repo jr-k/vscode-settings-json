@@ -1,0 +1,80 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "workbench.colorTheme": "PhpStorm Dark Theme",
+    //"workbench.colorTheme": "Real IntelliJ Light",
+    "workbench.startupEditor": "none",
+    "update.showReleaseNotes": false,
+    "workbench.editor.enablePreview": false,
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "workbench.editor.enablePreviewFromCodeNavigation": false,
+    "markdown.marp.exportType": "html",
+    "security.workspace.trust.untrustedFiles": "open",
+    "markdown.marp.themes": [
+        "/Users/jessym/marp/santeacademie.scss"
+    ],
+    "markdown.marp.enableHtml": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDelete": false,
+    "workbench.editor.empty.hint": "hidden",
+    "editor.fontSize": 13,
+    "workbench.iconTheme": "jetbrainsicons",
+    "editor.fontFamily": "'Jetbrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "workbench.tree.indent": 20,
+    "workbench.colorCustomizations": {
+        "[Real IntelliJ Light]": {
+            "editorLineNumber.foreground": "#adadad",
+            "editorLineNumber.activeForeground": "#241688",
+            "editorLineNumber.dimmedForeground": "#FF0000",
+            "editor.lineHighlightBackground": "#fcfaed",
+            "editor.lineHighlightBorder": "#fcfaed"
+        },
+    },
+    "editor.tokenColorCustomizations": {
+        "[Real IntelliJ Light]": {
+            "textMateRules": [
+                {
+                    "scope": ["variable", "variable.other", "variable.other.php"],
+                    "settings": {
+                        "foreground": "#6e0d0d"
+                    }
+                },
+                {
+                    "scope": ["keyword.operator"],
+                    "settings": {
+                        "foreground": "#0033B3"
+                    }
+                },
+                {
+                    "scope": ["meta"],
+                    "settings": {
+                        "foreground": "#4a85e8"
+                    }
+                }
+            ]
+        },
+        "[PhpStorm Dark Theme]": {
+            "textMateRules": [
+                {
+                    "scope": ["variable", "variable.other", "variable.other.php"],
+                    "settings": {
+                        "foreground": "#ffffff"
+                    }
+                },
+                {
+                    "scope": ["keyword.operator"],
+                    "settings": {
+                        "foreground": "#AAAAAA"
+                    }
+                },
+                {
+                    "scope": ["meta"],
+                    "settings": {
+                        "foreground": "#e7e7e7"
+                    }
+                }
+            ]
+        }
+    },
+    "phpParameterHint.enabled": false
+}
