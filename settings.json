@@ -94,12 +94,7 @@
         "**/dist": true
     },
     "files.exclude": {
-        "**/public/bundles": true,
-        "**/.idea": true,
-        "**/var": true,
-        "**/build": true,
-        "**/node_modules": true,
-        "**/dist": true
+
     },
     
 }
