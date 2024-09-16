@@ -1,10 +1,12 @@
 {
     "telemetry.telemetryLevel": "off",
-    "workbench.colorTheme": "PhpStorm Dark Theme",
-    //"workbench.colorTheme": "Real IntelliJ Light",
+    // "workbench.colorTheme": "PhpStorm Dark Theme",
+    "workbench.colorTheme": "Real IntelliJ Light",
     "workbench.startupEditor": "none",
     "update.showReleaseNotes": false,
     "workbench.editor.enablePreview": false,
+    "workbench.list.openMode": "doubleClick",
+    "explorer.autoReveal": false,
     "explorer.compactFolders": false,
     "editor.gotoLocation.multipleDefinitions": "goto",
     "workbench.editor.enablePreviewFromCodeNavigation": false,
@@ -77,5 +79,27 @@
             ]
         }
     },
-    "phpParameterHint.enabled": false
+    "phpParameterHint.enabled": false,
+    "totalTypeScript.hideAllTips": true,
+    "totalTypeScript.hideBasicTips": true,
+    "cursor.cpp.disabledLanguages": [],
+    "files.autoSave": "afterDelay",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "search.exclude": {
+        "**/public/bundles": true,
+        "**/.idea": true,
+        "**/var": true,
+        "**/build": true,
+        "**/node_modules": true,
+        "**/dist": true
+    },
+    "files.exclude": {
+        "**/public/bundles": true,
+        "**/.idea": true,
+        "**/var": true,
+        "**/build": true,
+        "**/node_modules": true,
+        "**/dist": true
+    },
+    
 }
