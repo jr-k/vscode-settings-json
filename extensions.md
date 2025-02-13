@@ -11,3 +11,4 @@
 * Real IntelliJ Light - c75
 * Symfony for VSCode - TheNouillet
 * Vue - Vue
+* Jinja Extension Pack - sugatoray
