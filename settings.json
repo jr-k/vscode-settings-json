@@ -1,8 +1,10 @@
 {
     "telemetry.telemetryLevel": "off",
     "explorer.autoReveal": false,
-    "workbench.colorTheme": "PhpStorm Dark Theme",
-    // "workbench.colorTheme": "Real IntelliJ Light",
+    "window.autoDetectColorScheme": true,
+    "workbench.colorTheme": "Real IntelliJ Light",
+    "workbench.preferredLightColorTheme": "Real IntelliJ Light",
+    "workbench.preferredDarkColorTheme": "PhpStorm Dark Theme",
     "workbench.startupEditor": "none",
     "workbench.localHistory.enabled": false,
     "update.showReleaseNotes": false,
@@ -145,5 +147,8 @@
     },
     "gitlens.ai.model": "openai:o1-preview",
     "symfony-vscode.phpExecutablePath": "",
+    "gitlens.advanced.messages": {
+        "suppressLineUncommittedWarning": true
+    },
     
 }
